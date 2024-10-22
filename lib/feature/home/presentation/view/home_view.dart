@@ -11,7 +11,7 @@ import '../../../../core/resources/strings_manger/strings_manager.dart';
 import '../../data/data.dart';
 import '../widget/custom_baner.dart';
 import '../widget/custom_search_form.dart';
-import '../widget/list_top_offer_Addis_widget.dart';
+import '../widget/list_top_offer_addis_widget.dart';
 import '../widget/sliver_grid_list_static_data_widget.dart';
 import '../widget/text_widget.dart';
 

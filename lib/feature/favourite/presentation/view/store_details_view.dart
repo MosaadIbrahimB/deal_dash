@@ -113,7 +113,7 @@ class StoreFavouriteDetails extends StatelessWidget {
                                   StoreIconButtons(
                                     iconData: Icons.call,
                                     onTap: () {
-                                      makePhoneCall(store.phone!);
+                                      makePhoneCall(store.phone);
                                     },
                                   ),
                                 ],

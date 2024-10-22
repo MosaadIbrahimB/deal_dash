@@ -1,6 +1,5 @@
 //search view
 
-import 'package:dealdash/core/widget/cart_offer_item.dart';
 import 'package:dealdash/feature/search/logic/search_cubit.dart';
 import 'package:dealdash/feature/search/logic/search_state.dart';
 import 'package:dealdash/feature/search/presentation/views/search_card_item.dart';

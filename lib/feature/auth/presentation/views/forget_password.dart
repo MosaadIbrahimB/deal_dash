@@ -1,4 +1,3 @@
-import 'package:dealdash/app.dart';
 import 'package:dealdash/core/widget/custom_toast.dart';
 import 'package:dealdash/feature/auth/logic/forgot_password/forgot_password_cubit.dart';
 import 'package:dealdash/feature/auth/logic/forgot_password/forgot_password_state.dart';

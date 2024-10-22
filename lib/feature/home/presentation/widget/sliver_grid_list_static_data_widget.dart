@@ -8,7 +8,7 @@ class SliverGridListStaticDataWidget extends StatelessWidget {
   late  List list;
   @override
   Widget build(BuildContext context) {
-    List<ProductModel> productListModel = productList.expand((x) => x).toList();
+    productList.expand((x) => x).toList();
     if(list is List<List<ProductModel>>){
       list=list.expand((x) => x).toList();
     }

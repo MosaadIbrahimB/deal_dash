@@ -1,4 +1,3 @@
-import 'package:dealdash/feature/location/data/model/store_model.dart';
 import 'package:dealdash/feature/search/data/model/offer_model.dart';
 
 class CategoryModel {

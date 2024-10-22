@@ -1,7 +1,7 @@
+import 'package:dealdash/core/resources/color_manger/color_manager.dart';
 import 'package:dealdash/core/widget/product_details.dart';
 import 'package:dealdash/feature/notification/data/model/notification_model.dart';
 import 'package:flutter/material.dart';
-import 'package:dealdash/feature/search/data/model/offer_model.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:timeago/timeago.dart' as timeago;
 
@@ -38,9 +38,9 @@ class NotificationCard extends StatelessWidget {
           width: double.infinity, // Ensures the container covers full width
           decoration: BoxDecoration(
             color: notification.readAt != null
-                ? Colors.white
+                ? ColorManager.gray
                 : Colors.blue.withOpacity(0.1), // Blue background for unread
-            // borderRadius: BorderRadius.circular(8.0),
+             borderRadius: BorderRadius.circular(8.0),
           ),
           child: Padding( // Add padding inside the container to control content padding
             padding: const EdgeInsets.all(12.0), // Adjust as needed
@@ -51,10 +51,9 @@ class NotificationCard extends StatelessWidget {
                 ClipRRect(
                   borderRadius: BorderRadius.circular(8.0),
                   child: Image.network(
-                    notification.data.image ??
-                        'https://media.istockphoto.com/id/681622484/photo/concrete-wall-shiny-smooth-backgrounds-white-textured.jpg?s=2048x2048&w=is&k=20&c=87J5-OznIqEEKD923thUgWZBNIiAD4oDVAmHSQYLr1o=',
-                    height: 70,
-                    width: 70,
+                    notification.data.image ,
+                    height: 80,
+                    width: 75,
                     fit: BoxFit.fill,
                   ),
                 ),

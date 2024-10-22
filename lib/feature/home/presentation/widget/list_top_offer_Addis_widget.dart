@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import '../../data/data.dart';
 import 'item_page_view_addis_widget.dart';
-import 'list_top_offer_addis_details_widget.dart';
 
 class ListTopOfferAddisWidget extends StatelessWidget {
   const ListTopOfferAddisWidget({super.key});

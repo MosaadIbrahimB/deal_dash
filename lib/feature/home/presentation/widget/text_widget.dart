@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
 
-import '../../../../core/resources/font_manger/font_manager.dart';
-import '../../../../core/resources/strings_manger/strings_manager.dart';
-
 class TextWidget extends StatelessWidget {
   final String title;
 

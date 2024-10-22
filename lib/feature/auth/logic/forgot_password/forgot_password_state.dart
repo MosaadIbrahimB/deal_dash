@@ -1,7 +1,6 @@
 //state for forget password
 
 import 'package:equatable/equatable.dart';
-import 'package:flutter/material.dart';
 
 abstract class ForgotPasswordState extends Equatable {
   const ForgotPasswordState();

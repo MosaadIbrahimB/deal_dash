@@ -1,12 +1,8 @@
-import 'dart:async';
 
-import 'package:dealdash/feature/home/presentation/view/home_view.dart';
 import 'package:flutter/material.dart';
 
 import '../../../../core/resources/color_manger/color_manager.dart';
-import '../../../../core/resources/font_manger/font_manager.dart';
 import '../../../../core/resources/strings_manger/strings_manager.dart';
-import 'custom_search_form.dart';
 
 class CustomBaner extends StatelessWidget {
   const CustomBaner({

@@ -3,7 +3,6 @@ import 'package:dealdash/core/resources/routes_manger/routes_manager.dart';
 import 'package:dealdash/feature/favourite/data/model/favourite_model.dart';
 import 'package:dealdash/feature/favourite/logic/favourite_cubit.dart';
 import 'package:dealdash/feature/favourite/logic/favourite_state.dart';
-import 'package:dealdash/feature/location/presentation/widget/store_card.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';

@@ -1,12 +1,10 @@
 import 'package:dealdash/core/resources/routes_manger/routes_manager.dart';
-import 'package:dealdash/core/widget/cart_offer_item.dart';
 import 'package:dealdash/feature/home/data/model/category_model.dart';
-import 'package:dealdash/feature/location/data/model/store_model.dart';
 import 'package:dealdash/feature/location/presentation/view/about_stores/presentation/widgets/offer_item.dart';
 import 'package:dealdash/feature/search/data/model/offer_model.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:go_router/go_router.dart';
+import 'cart_offer_item.dart';
 
 
 class ItemOfListBottomWidget extends StatelessWidget {

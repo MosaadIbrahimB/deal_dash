@@ -36,7 +36,7 @@ class _LocationViewState extends State<LocationView> {
     );
 
     context.read<StoreCubit>().fetchNearbyStores(
-          widget.currentLocation?.latitude ?? 31.372013,
+          widget.currentLocation.latitude ,
           widget.currentLocation.longitude,
         );
   }

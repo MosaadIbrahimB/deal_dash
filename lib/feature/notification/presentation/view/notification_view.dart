@@ -6,7 +6,6 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import '../../../../core/check_connect_internet/cubit/connect_internet_cubit.dart';
 import '../../../../core/check_connect_internet/cubit/connect_internet_state.dart';
 import '../../../../core/widget/ui_not_connectinternet_widget.dart';
-import '../../data/model/notification_item_model.dart';
 import '../widget/notification_card.dart';
 
 class NotificationView extends StatelessWidget {
@@ -14,7 +13,6 @@ class NotificationView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    context.read<NotificationCubit>().getAllNotifications();
     return BlocBuilder<ConnectInternetCubit, ConnectInternetState>(
       builder: (context, state) {
         if (state is NotConnectedState) {
@@ -30,11 +28,11 @@ class NotificationView extends StatelessWidget {
                   title: const Text('Notification'),
                   centerTitle: true,
                   elevation: 0,
-                  backgroundColor: Colors.transparent,
-                  foregroundColor: Colors.black,
+                 // backgroundColor: Colors.transparent,
+                 // foregroundColor: Colors.black,
                 ),
                 body: Padding(
-                  padding: const EdgeInsets.all(0.0),
+                  padding: const EdgeInsets.all(8.0),
                   child: ListView.builder(
                     itemCount: state.response.data.length,
                     itemBuilder: (context, index) {

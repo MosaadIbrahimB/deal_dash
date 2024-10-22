@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import '../../../../core/resources/strings_manger/strings_manager.dart';
-import 'custom_list_view_category.dart';
 import 'text_widget.dart';
 class TestCustomDivWhatYouWantWidget extends StatelessWidget {
   final  double height;

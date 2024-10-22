@@ -14,7 +14,7 @@ import 'package:dealdash/feature/auth/presentation/views/signup_view.dart';
 import 'package:dealdash/feature/change_password/presentation/view/change_password_view.dart';
 import 'package:dealdash/feature/home/presentation/view/root_view.dart';
 import 'package:dealdash/feature/onbording_splash/presentation/view/onboarding_view.dart';
-import 'package:dealdash/feature/privacy_and_policy/presentation/view/privacy_and_policy_view.dart';
+import 'package:dealdash/feature/profile/presentation/view/privacy_and_policy_view.dart';
 import 'package:dealdash/feature/search/data/model/offer_model.dart';
 import 'package:dealdash/feature/search/logic/search_cubit.dart';
 import 'package:dealdash/feature/search/presentation/views/search_view.dart';

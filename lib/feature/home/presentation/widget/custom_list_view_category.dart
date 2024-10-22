@@ -1,6 +1,5 @@
 import 'package:dealdash/feature/home/data/model/category_model.dart';
 import 'package:flutter/material.dart';
-import '../../data/data.dart';
 import 'category_widget.dart';
 
 class ListViewCategoryWidget extends StatelessWidget {

@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
       builder: (context, index) => MultiBlocProvider(
         providers: [
           BlocProvider(create: (_) => sl<FavouriteCubit>()),
-          BlocProvider(create: (_) => sl<NotificationCubit>()),
+          
           BlocProvider(
             create: (context) => sl<PlacesCubit>(),
           ),

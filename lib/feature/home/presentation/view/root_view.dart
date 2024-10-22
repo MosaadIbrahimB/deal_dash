@@ -131,6 +131,7 @@ import 'package:convex_bottom_bar/convex_bottom_bar.dart';
 import 'package:dealdash/feature/auth/logic/logout/logout_cubit.dart';
 import 'package:dealdash/feature/home/logic/category/category_cubit.dart';
 import 'package:dealdash/feature/home/presentation/view/home_view.dart';
+import 'package:dealdash/feature/notification/logic/notification_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:location/location.dart';
@@ -170,7 +171,10 @@ class _RootViewState extends State<RootView> {
       currentLocation != null
           ? LocationView(currentLocation: currentLocation!)
           : Container(),
-      const NotificationView(),
+      BlocProvider(
+       create: (_) => sl<NotificationCubit>()..getAllNotifications(),
+        child: const NotificationView(),
+      ),
       BlocProvider(
         create: (context) => sl<LogoutCubit>(),
         child: ProfileView(),

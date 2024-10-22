@@ -103,7 +103,7 @@ class AuthRepositoryImpl implements AuthRepository {
   Future<void> logOut() async{
 
      try {
-      final response = await apiServes.post(
+       await apiServes.post(
         endpoint: '/api/auth/logout',
         data: {},
         token: await SecureCacheHelper.getToken(),

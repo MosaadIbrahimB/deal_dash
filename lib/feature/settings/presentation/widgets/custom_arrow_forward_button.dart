@@ -1,4 +1,3 @@
-import 'package:dealdash/core/resources/color_manger/color_manager.dart';
 import 'package:flutter/material.dart';
 
 class CustomArrowForwardButton extends StatelessWidget {
